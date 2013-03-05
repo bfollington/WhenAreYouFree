@@ -1,0 +1,330 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2010, Oracle and/or its affiliates. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Course</th><th>Course Title</th><th>Class Type</th><th>Class</th><th>Start</th><th>End</th><th>Clash</th><th>Building Name</th><th>Building Number</th><th>Room</th><th>Start/End Date (DD/MM/YYYY)</th><th>Not taught on these dates (DD/MM/YYYY)</th><th>Signon Avail</th><th>Student Signon</th><th>Group Name</th></tr>
+<tr>
+<td>Monday</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>MICR3002</td>
+<td>Virology</td>
+<td>Lecture</td>
+<td>L01</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td></td>
+<td>Prentice Building</td>
+<td>=&quot;42&quot;</td>
+<td>=&quot;216&quot;</td>
+<td>25/02/2013 - 27/05/2013</td>
+<td> 01/04/2013; 08/04/2013</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>BIOL3003</td>
+<td>Advanced Immunology</td>
+<td>Lecture</td>
+<td>L01</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td></td>
+<td>Prentice Building</td>
+<td>=&quot;42&quot;</td>
+<td>=&quot;216&quot;</td>
+<td>25/02/2013 - 27/05/2013</td>
+<td> 01/04/2013; 08/04/2013</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>BIOL3230</td>
+<td>Endocrinology &amp; Metabolism</td>
+<td>Lecture</td>
+<td>L01</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td></td>
+<td>Seddon Building</td>
+<td>=&quot;82D&quot;</td>
+<td>=&quot;101&quot;</td>
+<td>25/02/2013 - 27/05/2013</td>
+<td> 01/04/2013; 08/04/2013</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>PSYC1040</td>
+<td>Psychological Res Method I</td>
+<td>Lecture</td>
+<td>L01</td>
+<td>02:00 PM</td>
+<td>03:50 PM</td>
+<td></td>
+<td>UQ Centre</td>
+<td>=&quot;27A&quot;</td>
+<td>=&quot;220&quot;</td>
+<td>25/02/2013 - 27/05/2013</td>
+<td> 01/04/2013</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>Tuesday</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>BIOL3003</td>
+<td>Advanced Immunology</td>
+<td>Lecture</td>
+<td>L01</td>
+<td>08:00 AM</td>
+<td>08:50 AM</td>
+<td></td>
+<td>Prentice Building</td>
+<td>=&quot;42&quot;</td>
+<td>=&quot;216&quot;</td>
+<td>26/02/2013 - 28/05/2013</td>
+<td> 02/04/2013; 09/04/2013</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>BIOL3003</td>
+<td>Advanced Immunology</td>
+<td>Contact</td>
+<td>C09</td>
+<td>10:00 AM</td>
+<td>12:50 PM</td>
+<td></td>
+<td>Chemistry Building</td>
+<td>=&quot;68&quot;</td>
+<td>=&quot;321&quot;</td>
+<td>05/03/2013 - 14/05/2013</td>
+<td> 26/03/2013; 02/04/2013; 09/04/2013; 16/04/2013; 23/04/2013</td>
+<td>Closed</td>
+<td>Complete</td>
+<td>Contact</td>
+<tr>
+<td>BIOL3230</td>
+<td>Endocrinology &amp; Metabolism</td>
+<td>Practical</td>
+<td>P03</td>
+<td>02:00 PM</td>
+<td>04:50 PM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>=&quot;64&quot;</td>
+<td>=&quot;LAB&quot;</td>
+<td>23/04/2013 - 30/04/2013</td>
+<td></td>
+<td>Closed</td>
+<td>Complete</td>
+<td>Practical</td>
+<tr>
+<td>BIOL3230</td>
+<td>Endocrinology &amp; Metabolism</td>
+<td>Practical</td>
+<td>P03</td>
+<td>02:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Hawken Engineering Building</td>
+<td>=&quot;50&quot;</td>
+<td>=&quot;N201&quot;</td>
+<td>26/02/2013 - 26/02/2013</td>
+<td></td>
+<td>Closed</td>
+<td>Complete</td>
+<td>Practical</td>
+<tr>
+<td>BIOL3230</td>
+<td>Endocrinology &amp; Metabolism</td>
+<td>Practical</td>
+<td>P03</td>
+<td>02:00 PM</td>
+<td>04:50 PM</td>
+<td>CLASH</td>
+<td>Molecular Biosciences Bldg</td>
+<td>=&quot;76&quot;</td>
+<td>=&quot;213&quot;</td>
+<td>05/03/2013 - 26/03/2013</td>
+<td></td>
+<td>Closed</td>
+<td>Complete</td>
+<td>Practical</td>
+<tr>
+<td>Wednesday</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>MICR3002</td>
+<td>Virology</td>
+<td>Lecture</td>
+<td>L01</td>
+<td>08:00 AM</td>
+<td>08:50 AM</td>
+<td></td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>=&quot;E215&quot;</td>
+<td>27/02/2013 - 29/05/2013</td>
+<td> 03/04/2013; 10/04/2013</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>MICR3002</td>
+<td>Virology</td>
+<td>Practical</td>
+<td>P02</td>
+<td>10:00 AM</td>
+<td>12:50 PM</td>
+<td></td>
+<td>Molecular Biosciences Bldg</td>
+<td>=&quot;76&quot;</td>
+<td>=&quot;224/225&quot;</td>
+<td>27/02/2013 - 10/04/2013</td>
+<td> 03/04/2013</td>
+<td>Closed</td>
+<td>Complete</td>
+<td>Practical</td>
+<tr>
+<td>BIOL3230</td>
+<td>Endocrinology &amp; Metabolism</td>
+<td>Lecture</td>
+<td>L01</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td></td>
+<td>Frank White Building</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;102&quot;</td>
+<td>27/02/2013 - 29/05/2013</td>
+<td> 03/04/2013; 10/04/2013</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>Friday</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>BIOL3003</td>
+<td>Advanced Immunology</td>
+<td>Lecture</td>
+<td>L01</td>
+<td>08:00 AM</td>
+<td>08:50 AM</td>
+<td></td>
+<td>Goddard Building</td>
+<td>=&quot;08&quot;</td>
+<td>=&quot;139&quot;</td>
+<td>01/03/2013 - 31/05/2013</td>
+<td> 05/04/2013; 12/04/2013</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>PSYC1040</td>
+<td>Psychological Res Method I</td>
+<td>Tutorial</td>
+<td>T12</td>
+<td>09:00 AM</td>
+<td>10:50 AM</td>
+<td></td>
+<td>McElwain Building</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;204&quot;</td>
+<td>08/03/2013 - 31/05/2013</td>
+<td> 05/04/2013</td>
+<td>Open</td>
+<td>Complete</td>
+<td>Tutorial</td>
+<tr>
+<td>MICR3002</td>
+<td>Virology</td>
+<td>Lecture</td>
+<td>L01</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Prentice Building</td>
+<td>=&quot;42&quot;</td>
+<td>=&quot;216&quot;</td>
+<td>01/03/2013 - 31/05/2013</td>
+<td> 05/04/2013; 12/04/2013</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>BIOL3230</td>
+<td>Endocrinology &amp; Metabolism</td>
+<td>Lecture</td>
+<td>L01</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>=&quot;E302&quot;</td>
+<td>01/03/2013 - 31/05/2013</td>
+<td> 05/04/2013; 12/04/2013</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+</table></body></html>
