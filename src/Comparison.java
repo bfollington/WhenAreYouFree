@@ -6,6 +6,15 @@ import javax.swing.JFileChooser;
 import custom_types.PPoint;
 import custom_types.Subject;
 
+/**
+ * 
+ * @author bfollington
+ * The comparison class is able to load two MySINet xls files and compare
+ * the data within them to determine free time.
+ * 
+ * It uses lists of Subject objects for the comparison
+ *
+ */
 
 public class Comparison {
 	

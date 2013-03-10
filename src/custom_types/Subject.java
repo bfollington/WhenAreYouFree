@@ -1,5 +1,13 @@
 package custom_types;
 
+/**
+ * 
+ * @author bfollington
+ *
+ * The shell for a Subject object, basically a struct.
+ * 
+ */
+
 public class Subject {
 	
 	public String _code, _title, _day;

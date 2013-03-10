@@ -37,13 +37,13 @@ public class GuiFrame extends JFrame {
 	
 	public void plotPoints(ArrayList<PPoint> arrayList)
 	{
-		for (PPoint pt : arrayList)
+		for (PPoint point : arrayList)
 		{
-			panel.addNewDrawPosition(pt.x, pt.y);
+			panel.addNewDrawPosition(point.x, point.y);
 		}
 	}
 	
-	/** Start the animation. */  
+	/** Draw the content of the panel. */  
 	public void drawContent() {
 		panel.drawContent();
 	}

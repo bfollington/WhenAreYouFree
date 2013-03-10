@@ -15,8 +15,7 @@ public class Parser {
 		
 		//Load file
 		try {
-			FileLoader file = new FileLoader(path);
-			lines = file.openFile();
+			lines = FileLoader.openFile(path);
 		} catch (IOException e)
 		{
 			System.err.print("Error " + e);

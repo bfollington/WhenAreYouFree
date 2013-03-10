@@ -2,6 +2,16 @@ import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.FileReader;
 
+/**
+ * 
+ * @author bfollington
+ * The file loader class is capable of taking the path to a file,
+ * opening it, and outputting the result to a list of strings.
+ * 
+ * Its methods are static, don't instantiate it (but you can).
+ *
+ */
+
 public class FileLoader {
 
 	private static String _path;
@@ -13,9 +23,9 @@ public class FileLoader {
 	}
 	
 	/* Opens a file from a file path, errors are handled, returns a list of Strings */
-	public String[] openFile() throws IOException
+	public static String[] openFile(String path) throws IOException
 	{
-		int numberOfLines = fileLength();
+		int numberOfLines = fileLength(path);
 		String[ ] textData = new String[numberOfLines];
 		
 		FileReader fr = new FileReader(_path);
@@ -32,9 +42,9 @@ public class FileLoader {
 	}
 	
 	/* Calculates the number of lines in a file */
-	public int fileLength() throws IOException
+	public static int fileLength(String path) throws IOException
 	{
-		FileReader fr = new FileReader(_path);
+		FileReader fr = new FileReader(path);
 		BufferedReader bf = new BufferedReader(fr);
 		
 		int numLines = 0;

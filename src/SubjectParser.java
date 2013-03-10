@@ -4,6 +4,15 @@ import lib.ExtStr;
 
 import custom_types.Subject;
 
+/**
+ * 
+ * @author bfollington
+ * 
+ * SubjectParser takes an array of Strings representing the lines in
+ * a MySINet timetable xls file and converts the data to a list of
+ * Subject objects which can be used by the Comparison class.
+ *
+ */
 
 public class SubjectParser {
 	
@@ -16,9 +25,9 @@ public class SubjectParser {
 	
 	public ArrayList<Subject> subjects = new ArrayList<Subject>();
 
-	public SubjectParser(String[] path)
+	public SubjectParser(String[] lines)
 	{
-		_lines = path;
+		_lines = lines;
 		
 		
 		//Get nodes and get subjects / times

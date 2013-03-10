@@ -1,6 +1,13 @@
 package lib;
 import java.util.ArrayList;
 
+/**
+ * 
+ * @author bfollington
+ *
+ * An extended string class I wrote, with a static method for splitting text at delimiters
+ *
+ */
 
 public class ExtStr {
 
