@@ -1,6 +1,4 @@
-import java.io.IOException;
-import java.io.BufferedReader;
-import java.io.FileReader;
+import java.io.*;
 
 /**
  * 
@@ -23,9 +21,9 @@ public class FileLoader {
 	}
 	
 	/* Opens a file from a file path, errors are handled, returns a list of Strings */
-	public static String[] openFile(String path) throws IOException
+	public String[] openFile() throws IOException
 	{
-		int numberOfLines = fileLength(path);
+		int numberOfLines = fileLength();
 		String[ ] textData = new String[numberOfLines];
 		
 		FileReader fr = new FileReader(_path);
@@ -42,9 +40,9 @@ public class FileLoader {
 	}
 	
 	/* Calculates the number of lines in a file */
-	public static int fileLength(String path) throws IOException
+	public int fileLength() throws IOException
 	{
-		FileReader fr = new FileReader(path);
+		FileReader fr = new FileReader(_path);
 		BufferedReader bf = new BufferedReader(fr);
 		
 		int numLines = 0;

@@ -12,10 +12,11 @@ public class Parser {
 	{
 		String path = filePath;
 		String lines[] = null;
+		FileLoader fl = new FileLoader(path);
 		
 		//Load file
 		try {
-			lines = FileLoader.openFile(path);
+			lines = fl.openFile();
 		} catch (IOException e)
 		{
 			System.err.print("Error " + e);

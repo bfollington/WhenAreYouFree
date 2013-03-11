@@ -44,7 +44,10 @@ public class GuiPanel extends JPanel {
 
 		for (int i = 0; i < XCoord.size(); i++)
 		{
-			g.drawImage(currentImage, XCoord.get(i), YCoord.get(i), this);
+			g.setColor(Color.GRAY);
+			g.drawRect(XCoord.get(i), YCoord.get(i), 100, 25);
+			g.fillRect(XCoord.get(i), YCoord.get(i), 100, 25);
+			//g.drawImage(currentImage, XCoord.get(i), YCoord.get(i), this);
 		}
 	}
 	

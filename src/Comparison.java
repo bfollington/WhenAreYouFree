@@ -1,3 +1,4 @@
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -32,9 +33,9 @@ public class Comparison {
 		
 		String path1, path2;
 		
-		if(fc1.showOpenDialog(null) == JFileChooser.CANCEL_OPTION) path1 = "src/ps.xls";
+		if(fc1.showOpenDialog(null) == JFileChooser.CANCEL_OPTION) path1 = "./ps.xls";
 		else path1 = fc1.getSelectedFile().getPath();
-		if(fc2.showOpenDialog(null) == JFileChooser.CANCEL_OPTION) path2 = "src/ps-3.xls";
+		if(fc2.showOpenDialog(null) == JFileChooser.CANCEL_OPTION) path2 = "./ps-3.xls";
 		else path2 = fc2.getSelectedFile().getPath();
 		
 		Parser parse1 = new Parser(path1);
